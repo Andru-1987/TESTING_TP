@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>DATASETTERLOG</title>
+</head>
+<body>
+<div id="app">
+    <header>
+        <div>
+            <div id="clicker">
+                <img src="./assets/pngegg.png" alt="registration icon">
+            </div>
+    
+            <h1> REGISTRATION MODULE </h1>
+            
+        </div>
+    <hr>
+    </header>
+    
+    <div id="body">
+        <div class="selection">
+            <div>
+                <label >Log In</label>
+                <input type="radio" name="method" value="GET">
+            </div>
+            <div>
+                <label >Sign Up</label>
+                <input type="radio" name="method" value="POST" checked>
+            </div>
+        </div>
+        <div id="signup" >
+
+            <form action="#" id="post">
+                <div>
+                    <input type="text" placeholder="Ingrese nombre" >
+                    <input type="text" placeholder="Ingrese apellido" >
+                    <input type="email" placeholder="Ingrese userEmail" required>
+                    <input type="number" placeholder="Ingrese dni" >
+                    <input type="number" placeholder="Ingrese edad">
+                    <input type="password" placeholder="Ingrese su pass" required>             
+                </div>
+                <input type="submit" value="Sign Up" id="sign">
+            </form>
+        </div>
+
+        <div id="login" class="hidden">
+
+            <form action="GET" id="get">
+                <div>
+                    
+                    <input type="email" placeholder="Ingrese userEmail" name="userName" required>
+                    <input type="password" placeholder="Ingrese su pass" name="userPass" required>
+                                       
+                </div>
+                <input type="submit" value="Log In" id="login">
+            </form>
+        </div>
+        
+        
+        <div id="modal">
+  
+        </div>
+
+    </div>
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>

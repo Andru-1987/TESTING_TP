@@ -1,0 +1,14 @@
+{
+  "usuario": [
+    {
+      "id": "3ebb1dc6-e7da-4468-afe9-0656ef28329f",
+      "userEmail": "andru.ocatorres@gmail.com",
+      "nombre": "anderson",
+      "apellido": "ocaña",
+      "edad": 34,
+      "dni": 99999999,
+      "date": "2022-10-12T22:20:27.987Z",
+      "password": "my_password"
+    }
+  ]
+}
