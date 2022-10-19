@@ -6,7 +6,6 @@ si se requiere una busqueda:
 */
 
 
-
 function displaySelector(value){
     clearMethod();
 
