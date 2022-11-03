@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "db": "json-server ./backend/db_json.json --watch",
-    "cypress:open":"cypress open"
+    "cypress:open": "cypress open",
+    "server": "node ./backend/server.js",
+    "all":"npm-run-all -p -r db server cypress:open"
   },
   "author": "",
   "license": "ISC",

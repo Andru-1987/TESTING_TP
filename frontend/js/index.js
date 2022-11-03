@@ -161,6 +161,9 @@ btn.addEventListener('submit', (e)=>{
     }else{
         getUser(URL, nombre,pass);
     }
+
+    document.querySelectorAll('#get >div input').forEach(e=>e.value = '');
+    
 })
 
 
@@ -212,6 +215,9 @@ signUp.addEventListener('click', (event) =>{
         userToJson = JSON.stringify(resFront);
         
         if(postData(URL,userToJson)){
+            
+            document.querySelectorAll('#post >div input').forEach(e=>e.value = '');
+
             alert(`Usuario ${resFront.userEmail} ha sido creado satisfactoriamente`)
         }
     }
