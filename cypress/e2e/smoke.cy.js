@@ -1,13 +1,13 @@
 
 describe('SMOKE TEST',()=>{
 
-    it('validar loading', ()=>{
+    it('VALIDAR LOADING', ()=>{
         cy.visit('http://localhost:5500/index.html')
         cy.get('.selection > :nth-child(2)').should('be.visible')
 
     })
 
-    it('validar click sobre log in', ()=>{
+    it('VALIDAR CLICK SOBRE LOGIN', ()=>{
         cy.visit('http://localhost:5500/index.html')
         cy.get('.selection > :nth-child(1) > input').click()
         cy.get('#get').should('be.visible')

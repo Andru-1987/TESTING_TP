@@ -8,7 +8,7 @@ describe('TDD METHOD',function(){
         })
     })
 
-    it('Validar Landing Page', function(){
+    it('VALIDAR LANDING PAGE', function(){
         
         cy.get('.selection > :nth-child(1) > input').click();
         cy.get('#get > div > [type="email"]').type(this.data.userEmail);

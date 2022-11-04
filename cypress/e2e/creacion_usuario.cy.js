@@ -8,7 +8,7 @@ describe('CREACION DE USUARIO',function(){
         })
     })
 
-    it('Validar ', function(){
+    it('VALIDAR CREACION DE USUARIO', function(){
 
         cy.get('[placeholder="Ingrese nombre"]').type(this.data.nombre);
         cy.get('[placeholder="Ingrese apellido"]').type(this.data.apellido);
