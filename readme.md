@@ -41,7 +41,12 @@ Instalar los modulos necesarios :
 correr el siguiente comando para correr el software en cuestion junto a cypress :
 - npm run all
 
+para correr las pruebas usando la línea de comando tenemos que crear una nueva terminal y correr el siguiente comando:
+- npm run cy:headless     
+ _si se desea sin video_
 
+- npm run cy:video\
+_si se desea con video_
 
 
 

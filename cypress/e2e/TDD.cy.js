@@ -1,7 +1,7 @@
-describe('Prueba de TDD',function(){
+describe('TDD METHOD',function(){
 
     beforeEach('Stub data',function(){
-        cy.visit('http://127.0.0.1:5500/frontend/index.html')
+        cy.visit('http://localhost:5500/index.html')
         cy.fixture('fixture-demo/usuario')
         .then(data =>{
             this.data = data;
@@ -19,5 +19,6 @@ describe('Prueba de TDD',function(){
         cy.contains('#modal','Bienvenido').should('be.visible');
         cy.get('#modal > :nth-child(3)').should('include.text',this.data.nombre);
     })
+
 
 })

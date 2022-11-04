@@ -7,7 +7,11 @@
     "db": "json-server ./backend/db_json.json --watch",
     "cypress:open": "cypress open",
     "server": "node ./backend/server.js",
-    "all":"npm-run-all -p -r db server cypress:open"
+    "all":"npm-run-all -p -r db server ",
+    "cy:run": "cypress run --browser edge ./cypress/e2e/TDD.cy.js ",
+    "cy:headless": "cypress run --headless",
+    "cy:video": "cypress run --headless --record false ./cypress/e2e/*.cy.js "
+
   },
   "author": "",
   "license": "ISC",
