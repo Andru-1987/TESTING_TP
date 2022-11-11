@@ -9,6 +9,26 @@
       "dni": 99999999,
       "date": "2022-10-12T22:20:27.987Z",
       "password": "my_password"
+    },
+    {
+      "id": "baf8d2b2-cb15-4f28-8bb1-da06b4d07930",
+      "nombre": "martin",
+      "apellido": "gallardo",
+      "userEmail": "martin@gmail.com",
+      "dni": "12309823",
+      "edad": "34",
+      "date": "2022-11-11T22:20:48.504Z",
+      "password": "123"
+    },
+    {
+      "id": "20700b52-8150-4eb2-aec3-43b7ec4f5d4f",
+      "nombre": "martin",
+      "apellido": "gallardo",
+      "userEmail": "martin@gmail.com",
+      "dni": "12309823",
+      "edad": "34",
+      "date": "2022-11-11T22:20:59.542Z",
+      "password": "123"
     }
   ]
 }
